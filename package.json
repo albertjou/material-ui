@@ -51,10 +51,8 @@
     "argos": "argos upload test/regressions/screenshots/chrome --token $ARGOS_TOKEN || true"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
+    "preact": "*"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "7.0.0-beta.42",
     "@babel/core": "7.0.0-beta.42",
