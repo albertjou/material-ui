@@ -65,7 +65,8 @@
         "transform-react-constant-elements",
         "transform-dev-warning",
         ["react-remove-properties", { "properties": ["data-mui-test"] }],
-        ["transform-react-remove-prop-types", { "mode": "remove" }]
+        ["transform-react-remove-prop-types", { "mode": "remove" }],
+        ["transform-react-jsx", { "pragma": "h" }]
       ]
     },
     "es": {
